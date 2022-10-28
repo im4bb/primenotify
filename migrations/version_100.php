@@ -50,10 +50,10 @@ class version_100 extends \phpbb\db\migration\migration
 		return array(
 			'add_columns'	=> array(
 				USERS_TABLE	=> array(
-					'user_primenotify_enable_post'	=> array('BOOL', 1),
-					'user_primenotify_enable_pm'	=> array('BOOL', 1),
-					'user_primenotify_keep_bbcodes'	=> array('BOOL', 1),
-					'user_primenotify_always_send'	=> array('BOOL', 1),
+					'user_primenotify_enable_post'	=> array('BOOL', 0),
+					'user_primenotify_enable_pm'	=> array('BOOL', 0),
+					'user_primenotify_keep_bbcodes'	=> array('BOOL', 0),
+					'user_primenotify_always_send'	=> array('BOOL', 0),
 				),
 			),
 		);
